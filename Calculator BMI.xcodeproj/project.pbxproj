@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41BA52081BF29FDB007AF223 /* ViewResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA52071BF29FDB007AF223 /* ViewResult.swift */; };
 		41D9E8AB1BF14E3D00F187CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9E8AA1BF14E3D00F187CD /* AppDelegate.swift */; };
 		41D9E8AD1BF14E3D00F187CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D9E8AC1BF14E3D00F187CD /* ViewController.swift */; };
 		41D9E8B01BF14E3D00F187CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D9E8AE1BF14E3D00F187CD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41BA52071BF29FDB007AF223 /* ViewResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewResult.swift; sourceTree = "<group>"; };
 		41D9E8A71BF14E3D00F187CD /* Calculator BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator BMI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D9E8AA1BF14E3D00F187CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D9E8AC1BF14E3D00F187CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41BA52091BF29FE6007AF223 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41D9E8AC1BF14E3D00F187CD /* ViewController.swift */,
+				41BA52071BF29FDB007AF223 /* ViewResult.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		41D9E89E1BF14E3D00F187CD = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +65,8 @@
 		41D9E8A91BF14E3D00F187CD /* Calculator BMI */ = {
 			isa = PBXGroup;
 			children = (
+				41BA52091BF29FE6007AF223 /* Controllers */,
 				41D9E8AA1BF14E3D00F187CD /* AppDelegate.swift */,
-				41D9E8AC1BF14E3D00F187CD /* ViewController.swift */,
 				41D9E8AE1BF14E3D00F187CD /* Main.storyboard */,
 				41D9E8B11BF14E3D00F187CD /* Assets.xcassets */,
 				41D9E8B31BF14E3D00F187CD /* LaunchScreen.storyboard */,
@@ -138,6 +149,7 @@
 			files = (
 				41D9E8AD1BF14E3D00F187CD /* ViewController.swift in Sources */,
 				41D9E8AB1BF14E3D00F187CD /* AppDelegate.swift in Sources */,
+				41BA52081BF29FDB007AF223 /* ViewResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +299,7 @@
 				41D9E8BB1BF14E3D00F187CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
